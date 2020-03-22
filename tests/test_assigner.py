@@ -13,6 +13,8 @@ import torch
 from mmdet.core import MaxIoUAssigner
 from mmdet.core.bbox.assigners import ApproxMaxIoUAssigner, PointAssigner
 
+def test_other():
+    print('hello')
 
 def test_max_iou_assigner():
     self = MaxIoUAssigner(
